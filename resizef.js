@@ -1,0 +1,1 @@
+var resizeImage=function(b,c,e,f){var a=e/b,d=f/c;a=a>d?a:d;b*=a;c*=a;d=a=0;c>f&&(a=(f-c)/2);b>e&&(d=(e-b)/2);return{top:a,left:d,width:b,height:c}};
